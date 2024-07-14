@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Specify character encoding for the document -->
+    <meta charset="UTF-8" />
+    <!-- Set viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to the CSS stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Link to the js file, loading it after HTML parsing -->
+    <script src="./script.js" defer></script>
+
+    <title>Todo</title>
+  </head>
+  <body>
+    <!-- Main section for the todo list -->
+    <section class="todo">
+      <h2>To do List</h2>
+      <div class="input">
+        <!-- Input field for entering new tasks -->
+        <input
+          type="text"
+          class="input-field"
+          id="todoInput"
+          placeholder=" Add a new task"
+        />
+        <!-- Button to add the task -->
+        <button class="btn">Add</button>
+      </div>
+      <ul class="scroll">
+        <!-- List to display the todo items -->
+        <li id="todoList"></li>
+      </ul>
+      <div>
+        <hr class="counter" />
+        <div class="counter-container">
+          <!-- Display the total number of todo items -->
+          <p><span id="todoCount">0</span> items total</p>
+          <!-- Button to delete all todo items -->
+          <button id="deleteButton">Delete All</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <!-- Footer section indicating the author -->
+        <p class="Made-by">Made By</p>
+        <p class="author">Bhuvan K</p>
+      </div>
+    </footer>
+  </body>
+</html>
