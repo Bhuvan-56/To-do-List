@@ -3,9 +3,9 @@
 
 
 
-This project is a model of a To-do List made via HTML, CSS and JavaScript. In this repository, you can find three files.
+This project is a model of a To-do List made via HTML, CSS, and JavaScript. In this repository, you can find three files.
  
-You can add, edit and delete tasks in this. You can also find the number of remaining tasks and delete all tasks.
+You can add, edit, and delete tasks in this. You can also find the number of remaining tasks and delete all tasks.
  
 
 ## File Structure
@@ -32,8 +32,8 @@ and run it on a live server.
 
 ### or
 
-You can check out my deployed project of my To-do List in this
+You can check out my deployed project of my To-do List at this
 Github Pages Link.
 
-https://bhuvan-56.github.io/To-do-List-/
+https://bhuvan-56.github.io/To-do-List/
 
