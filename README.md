@@ -23,17 +23,35 @@ The stylesheet for customizing the appearance of the application.
  The JavaScript file handles the functionality of adding and deleting tasks.
 
  
+
 ## Deployment
 
-To deploy this project 
+To deploy this project via Command line/Terminal
 
-You can either install these three files and run them in VS code
-and run it on a live server. 
+### 1.  Clone this repository 
+        git clone https://github.com/Bhuvan-56/To-do-List
 
-### or
+### 2. Move to this directory
+        cd To-do-List
 
-You can check out my deployed project of my To-do List at this
+### 3. Open the project in a Web Browser
+#### For Windows
+        start index.html
+
+#### For macOS
+        open index.html
+
+#### For Linux
+        xdg-open index.html
+
+
+
+
+## or
+
+You can check out my deployed project of To-do List on this
 Github Pages Link.
 
 https://bhuvan-56.github.io/To-do-List/
+
 
